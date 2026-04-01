@@ -1,0 +1,48 @@
+score = 0
+print("Question 1: What is the capital of France?")
+print("1. Berlin")
+print("2. Madrid")
+print("3. Paris")
+print("4. Rome")
+answer = input("Enter your choice (1-4): ")
+if answer == "3":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong! The correct answer is 3. Paris")
+print("\nQuestion 2: Which language is used for web apps?")
+print("1. Python")
+print("2. JavaScript")
+print("3. C++")
+print("4. Java")
+answer = input("Enter your choice (1-4): ")
+if answer == "2":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong! The correct answer is 2. JavaScript")
+
+print("\nYour final score is:", score, "out of 2")
+
+
+INPUT
+1
+2
+
+OUTPUT
+
+Question 1: What is the capital of France?
+1. Berlin
+2. Madrid
+3. Paris
+4. Rome
+Enter your choice (1-4): Wrong! The correct answer is 3. Paris
+
+Question 2: Which language is used for web apps?
+1. Python
+2. JavaScript
+3. C++
+4. Java
+Enter your choice (1-4): Correct!
+
+Your final score is: 1 out of 2
